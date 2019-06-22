@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "node server.js",
-    "build": "npm install && node build/build.js",
-    "postinstall": "npm install express --save"
+    "build": "node build/build.js",
+    "postinstall": "npm install"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
