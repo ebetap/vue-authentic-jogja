@@ -2,7 +2,7 @@
     <div class="header-nav">
         <div class="header-nav-container">
             <div class="logo">
-                <img src="@/assets/logo-auth.png">
+                <img src="@/assets/logo-auth.png" alt="Logo">
                 <div class="search">
                 	<form v-on:submit.prevent="searching">
                 		<input type="text" name="search" class="inp-search" placeholder="What are you looking for?" v-model="search">

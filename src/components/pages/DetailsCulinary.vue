@@ -4,7 +4,7 @@
 	        <div class="header-nav-container">
 	            <div class="logo">
 	                <router-link to="/">
-	                	<img src="@/assets/logo@3x.png">
+	                	<img src="@/assets/logo@3x.png" alt="Logo">
 	                </router-link>
 	                <div class="search">
 	                	<form v-on:submit.prevent="searching">
