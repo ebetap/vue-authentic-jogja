@@ -14,7 +14,7 @@
               <div class="cards-container">
                   <div class="card culinary" v-on:click="discoverCulinary">
                       <div class="overlay"></div>
-                      <div v-lazy-container="{ selector: 'img' }" class="card-content">
+                      <div class="card-content">
                         <img src="@/assets/culinary icon 240.png" alt="culinary icon">
                         <div class="name">Culinary</div>
                       </div>
@@ -22,15 +22,15 @@
 
                   <div class="card event" v-on:click="discoverEvents">
                     <div class="overlay"></div>
-                    <div v-lazy-container="{ selector: 'img' }" class="card-content">
+                    <div class="card-content">
                         <img src="@/assets/event icon 240.png" alt="event icon">
                         <div class="name">Event</div>
                     </div>
                   </div>
 
-                  <div  class="card hand-craft" v-on:click="discoverCrafts">
+                  <div class="card hand-craft" v-on:click="discoverCrafts">
                     <div class="overlay"></div>
-                    <div v-lazy-container="{ selector: 'img' }" class="card-content">
+                    <div class="card-content">
                         <img src="@/assets/icon craft 240.png" alt="craft icon">
                         <div class="name">Handycraft</div>
                     </div>
@@ -84,21 +84,21 @@
           <div class="best-thing-cards-container">
             <div class="best-cards-box">
               <div class="best-card">
-                <div v-lazy-container="{ selector: 'img' }" class="card-thumb">
+                <div class="card-thumb">
                   <img src="@/assets/see-1.png" alt="card-thumb">
                 </div>
               </div>
             </div>
             <div class="best-cards-box">
               <div class="best-card">
-                <div v-lazy-container="{ selector: 'img' }" class="card-thumb">
+                <div class="card-thumb">
                   <img src="@/assets/see-2.png" alt="card-thumb">
                 </div>
               </div>
             </div>
             <div class="best-cards-box">
               <div class="best-card">
-                <div v-lazy-container="{ selector: 'img' }" class="card-thumb">
+                <div class="card-thumb">
                   <img src="@/assets/see-3.png" alt="card-thumb">
                 </div>
               </div>
@@ -114,18 +114,18 @@
           <h1>Get in touch with us</h1>
         </div>
         <div class="andro">
-          <div v-lazy-container="{ selector: 'img' }" class="ssandro">
+          <div class="ssandro">
             <img src="@/assets/dl1.png" alt="ss1">
           </div>
-          <div v-lazy-container="{ selector: 'img' }" class="ssandro">
+          <div class="ssandro">
             <img src="@/assets/dl2.png" alt="ss2">
           </div>
-          <div v-lazy-container="{ selector: 'img' }" class="ssandro">
+          <div class="ssandro">
             <img src="@/assets/dl3.png" alt="ss2">
           </div>
         </div>
-        <div v-lazy-container="{ selector: 'img' }" class="goole-play-button">
-          <img  src="@/assets/gplay.png" alt="GooglePlay">
+        <div class="goole-play-button">
+          <img src="@/assets/gplay.png" alt="GooglePlay">
         </div>
       </div>
     </section>
