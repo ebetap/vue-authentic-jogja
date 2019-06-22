@@ -3,7 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Auth from './services/Auth.js'
+// import Auth from './services/Auth.js'
+import VueLazyload from 'vue-lazyload'
+
+Vue.use(VueLazyload)
 
 Vue.config.productionTip = false
 
